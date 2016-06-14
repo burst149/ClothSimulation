@@ -1,0 +1,32 @@
+ 
+obj/main.obj: src/main.cpp extlibs/gl3w/include/GL/gl3w.h \
+ extlibs/gl3w/include/GL/glcorearb.h extlibs/glfw/include/GLFW/glfw3.h \
+ extlibs/linmath.h/linmath.h inc/shaders.hpp inc/Texture.hpp \
+ inc/Model.hpp inc/ParticleSystem.hpp inc/Particle.hpp inc/Cloth.hpp
+	$(MKD)  
+	$(CMD)  
+obj/Model.obj: src/Model.cpp inc/Model.hpp extlibs/gl3w/include/GL/gl3w.h \
+ extlibs/gl3w/include/GL/glcorearb.h extlibs/glfw/include/GLFW/glfw3.h \
+ extlibs/linmath.h/linmath.h
+	$(MKD)  
+	$(CMD)  
+obj/Cloth.obj: src/Cloth.cpp inc/Cloth.hpp extlibs/gl3w/include/GL/gl3w.h \
+ extlibs/gl3w/include/GL/glcorearb.h extlibs/glfw/include/GLFW/glfw3.h \
+ extlibs/linmath.h/linmath.h inc/Particle.hpp
+	$(MKD)  
+	$(CMD)  
+obj/Particle.obj: src/Particle.cpp inc/Particle.hpp \
+ extlibs/linmath.h/linmath.h
+	$(MKD)  
+	$(CMD)  
+obj/Texture.obj: src/Texture.cpp inc/Texture.hpp \
+ extlibs/gl3w/include/GL/gl3w.h extlibs/gl3w/include/GL/glcorearb.h
+	$(MKD)  
+	$(CMD)  
+obj/ParticleSystem.obj: src/ParticleSystem.cpp inc/ParticleSystem.hpp \
+ extlibs/gl3w/include/GL/gl3w.h extlibs/gl3w/include/GL/glcorearb.h \
+ extlibs/glfw/include/GLFW/glfw3.h extlibs/linmath.h/linmath.h \
+ inc/Particle.hpp
+	$(MKD)  
+	$(CMD)  
+

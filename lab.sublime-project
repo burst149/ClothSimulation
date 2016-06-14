@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"path": "./inc/"
+		},
+		{
+			"path": "./src/"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "BUILD",
+			"working_dir": "${project_path:${folder}}",
+			"cmd": ["mingw32-make.exe"]
+		}
+	]
+}

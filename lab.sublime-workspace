@@ -1,0 +1,403 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Is",
+				"IsFrozen"
+			],
+			[
+				"Get",
+				"GetPosition"
+			],
+			[
+				"_sca",
+				"_scale_func"
+			],
+			[
+				"_ap",
+				"_alpha_func"
+			],
+			[
+				"smok",
+				"smoke_scale"
+			],
+			[
+				"alpha",
+				"alpha_func"
+			],
+			[
+				"part",
+				"particleShader"
+			],
+			[
+				"Parti",
+				"ParticleSystem"
+			],
+			[
+				"_pre",
+				"_prev_dt"
+			],
+			[
+				"vec3_",
+				"vec3_scale"
+			],
+			[
+				"Update",
+				"UpdateVertex"
+			],
+			[
+				"No",
+				"AddNormal"
+			],
+			[
+				"Res",
+				"ResetNormal"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"par",
+				"particleVertexSrc"
+			],
+			[
+				"snow",
+				"snow_amount"
+			],
+			[
+				"camera_",
+				"camera_dir"
+			]
+		]
+	},
+	"build_system": "BUILD",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Documents/FER/RG/lab3/src/Particle.cpp",
+		"/D/Documents/FER/RG/lab3/src/Model.cpp",
+		"/D/Documents/FER/RG/lab3/src/Cloth.cpp",
+		"/D/Documents/FER/RG/lab3/inc/ParticleSystem.hpp",
+		"/D/Documents/FER/RG/lab3/src/main.cpp",
+		"/D/Documents/FER/RG/lab3/src/ParticleSystem.cpp",
+		"/D/Documents/FER/RG/lab3/inc/shaders.hpp",
+		"/D/Documents/FER/RG/lab3/inc/Cloth.hpp",
+		"/D/Documents/FER/RG/lab3/extlibs/linmath.h/linmath.h",
+		"/D/Documents/FER/RG/lab3/inc/Particle.hpp",
+		"/D/Documents/FER/RG/lab3/src/Texture.cpp",
+		"/D/Documents/FER/RG/lab3/inc/Texture.hpp",
+		"/D/Documents/FER/RG/lab3/inc/Model.hpp",
+		"/D/Documents/FER/RG/lab3/inc/Particle_old.hpp",
+		"/D/Documents/FER/RG/lab3/src/Particle_old.cpp",
+		"/D/Documents/FER/RG/lab3/bin/sky.obj",
+		"/D/Documents/FER/RG/lab3/bin/sky.tga",
+		"/D/Documents/FER/RG/lab3/MosegaardsClothTutorial.cpp",
+		"/C/Users/Bruno/AppData/Local/Temp/7zE3D87.tmp/MosegaardsClothTutorial.cpp",
+		"/D/Documents/FER/RG/Lab3/inc/shaders.hpp",
+		"/D/Documents/FER/RG/Lab3/inc/Particle.hpp",
+		"/D/Documents/FER/RG/Lab3/src/Particle.cpp",
+		"/D/Documents/FER/RG/Lab3/inc/Model.hpp",
+		"/D/Documents/FER/RG/Lab3/src/Model.cpp",
+		"/D/Documents/FER/RG/Lab2/bin/cube_full.obj",
+		"/D/Documents/FER/RG/Lab2/makefile",
+		"/D/Documents/FER/RG/lab1/src/Track.cpp",
+		"/D/Documents/FER/RG/lab1/bin/complex.txt",
+		"/D/Documents/FER/RG/lab1/src/Curve.cpp",
+		"/D/Documents/FER/RG/lab1/inc/shaders.hpp",
+		"/D/Documents/FER/RG/lab1/inc/Track.hpp",
+		"/D/Documents/FER/RG/lab1/bin/spiral.txt",
+		"/D/Documents/FER/RG/lab1/inc/Model.hpp",
+		"/D/Documents/FER/RG/lab1/src/Model.cpp",
+		"/D/Documents/FER/RG/lab1/inc/Curve.hpp",
+		"/D/Documents/FER/RG/lab1/bin/skull.obj",
+		"/D/Documents/FER/RG/lab1/bin/f22_new.obj",
+		"/D/Documents/FER/RG/lab1/bin/circuit.txt",
+		"/D/Documents/FER/RG/lab1/bin/cube_full.obj",
+		"/D/Documents/FER/RG/lab1/bin/tetrahedron.obj",
+		"/D/Documents/FER/RG/lab1/src/model.cpp",
+		"/D/Documents/FER/RG/lab1/makefile",
+		"/D/Documents/FER/RG/lab1/inc/shaders.h",
+		"/D/Documents/FER/RG/lab1/src/main.cpp",
+		"/D/Documents/FER/RG/lab1/include/shaders.h",
+		"/D/Documents/FER/RG/lab1/lab.sublime-project",
+		"/D/Downloads/zlib128/zlib-1.2.8/deflate.h",
+		"/D/Downloads/zlib128/zlib-1.2.8/zutil.c",
+		"/D/Programs/SublimeText2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Programs/SublimeText2/Data/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+			"D:\\Documents\\FER\\RG\\lab3\\,*.cpp,*.hpp",
+			"D:\\Documents\\FER\\RG\\lab3\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"^(.*)$",
+			"damping",
+			"AMOUNT",
+			"32",
+			".",
+			"smoke",
+			"snow",
+			"n",
+			" n",
+			"glfwGetKey(window, GLFW_KEY_F)",
+			"win_W",
+			"win_w",
+			"uv",
+			"position",
+			"model",
+			"glGetAttribLocation(_shader, \"angle\")",
+			"glGetAttribLocation(_shader, \"alpha\")",
+			"0.6f",
+			"position",
+			"glGetAttribLocation(_shader, \"model\")",
+			"/_scales[i]",
+			"i",
+			"quad",
+			"_trans",
+			"trans",
+			"forms",
+			"uvAttrib",
+			"silk",
+			"Silk",
+			"vbo",
+			"view",
+			"L",
+			"32",
+			"silk",
+			"ball",
+			"silk",
+			"off",
+			"64",
+			"ball",
+			"L",
+			"flagL",
+			"particles",
+			"10",
+			"_force",
+			" / _mass",
+			"_mass",
+			"w)",
+			"g)",
+			"g",
+			"_nodes[_nX",
+			"i",
+			"move",
+			"nodes",
+			" pos",
+			"pos",
+			"pos[0]",
+			"SetPosition",
+			"_pos",
+			"SetPosi",
+			"tex",
+			"_pos",
+			"smoke_tex",
+			"snow",
+			"snow_tex",
+			"smoke",
+			" > ",
+			"void",
+			"alpha",
+			"view",
+			"MV",
+			"rot",
+			".AddParticles",
+			"_times",
+			"push",
+			"pos",
+			"0.0f",
+			">",
+			"2",
+			"size",
+			"pos",
+			"void",
+			"pyr",
+			"smoke",
+			"dt",
+			"CLE",
+			"0",
+			"Node",
+			"node",
+			"Node",
+			"node",
+			"Node",
+			"node",
+			"Node",
+			"node",
+			"Node",
+			"node",
+			"Node",
+			"BIN",
+			"	#",
+			"echo",
+			"@echo",
+			"sh",
+			"else ",
+			" - size",
+			"||",
+			"!!",
+			"> ",
+			"< -",
+			"p[0] - size",
+			"size - ",
+			"v[1] =  0.0f;",
+			"v[2] =  0.1f - p[2]",
+			"scale",
+			",",
+			"01",
+			"dt",
+			"1.0",
+			"-+",
+			" ",
+			"-",
+			"normal",
+			"0.95f",
+			"4, 4",
+			"6.3f",
+			"(3)",
+			"3",
+			"1, 1",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Mingw32-make",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
