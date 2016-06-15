@@ -1,5 +1,5 @@
 #Output name
-TARGET = Lab.exe
+TARGET = Cloth.exe
 
 #Project directories
 INCDIR = inc

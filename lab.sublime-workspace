@@ -174,6 +174,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"2*dt",
 			"^(.*)$",
 			"damping",
 			"AMOUNT",
@@ -300,8 +301,7 @@
 			"6.3f",
 			"(3)",
 			"3",
-			"1, 1",
-			"1"
+			"1, 1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -355,7 +355,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Mingw32-make",
+	"pinned_build_system": "BUILD",
 	"replace":
 	{
 		"height": 62.0

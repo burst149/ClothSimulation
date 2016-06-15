@@ -15,7 +15,7 @@
 #include "ParticleSystem.hpp"
 #include "Cloth.hpp"
 
-#define SNOW_AMOUNT 2000
+#define SNOW_AMOUNT 1000
 #define SMOKE_AMOUNT 16
 #define FLAG_AMOUNT 32
 
@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
 	Texture smoke_tex("smoke.tga");
 	Texture snow_tex("flake.tga");
 
-	Texture flag_tex("flag_torn.tga");
+	Texture flag_tex("flag.tga");
 	Texture flagL_tex("flag_long.tga");
 
 	// Scene construction
@@ -240,11 +240,11 @@ int main(int argc, char *argv[])
 
 			if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS)
 				if (wind[0] > -20.0f)
-					wind[0] -= 5.0f * dt;
+					wind[0] -= 1.0f * dt;
 
 			if (glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS)
 				if (wind[0] < 20.0f)
-					wind[0] += 5.0f * dt;
+					wind[0] += 1.0f * dt;
 
 			if (glfwGetKey(window, GLFW_KEY_X) == GLFW_PRESS)
 					wind[0] = 0;
@@ -255,7 +255,7 @@ int main(int argc, char *argv[])
 			if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
 			{
 				vec3 movement;
-				vec3_scale(movement, camera_dir, 5*dt);
+				vec3_scale(movement, camera_dir, 4*dt);
 				vec3_add(camera_pos, camera_pos, movement);
 			}
 
@@ -267,14 +267,14 @@ int main(int argc, char *argv[])
 				vec3_norm(right, right);
 
 				vec3 movement;
-				vec3_scale(movement, right, 5*dt);
+				vec3_scale(movement, right, 4*dt);
 				vec3_sub(camera_pos, camera_pos, movement);
 			}
 
 			if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
 			{
 				vec3 movement;
-				vec3_scale(movement, camera_dir, 5*dt);
+				vec3_scale(movement, camera_dir, 4*dt);
 				vec3_sub(camera_pos, camera_pos, movement);
 			}
 
@@ -286,7 +286,7 @@ int main(int argc, char *argv[])
 				vec3_norm(right, right);
 
 				vec3 movement;
-				vec3_scale(movement, right, 5*dt);
+				vec3_scale(movement, right, 4*dt);
 				vec3_add(camera_pos, camera_pos, movement);
 			}
 
