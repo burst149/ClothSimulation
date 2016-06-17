@@ -1,7 +1,7 @@
 ## 3D particles and cloth physics simulation using verlet integration
 
-![gif2](https://a.pomf.cat/xqecyx.gif)
+![gif1](http://pomf.nyafuu.org/files/jdoiry.gif)
 
-![gif1](https://a.pomf.cat/knejjk.gif)
+![gif2](http://pomf.nyafuu.org/files/ktlvwq.gif)
 
-![gif3](https://a.pomf.cat/cimzob.gif)
+![gif3](http://pomf.nyafuu.org/files/ptzlfx.gif)
